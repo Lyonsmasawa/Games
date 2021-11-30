@@ -1,0 +1,180 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.logoname{
+    padding: 0 50px;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+.header {
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__nav {
+    flex-grow: .3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+  }
+  
+  .nav__item {
+    padding: 0 10px;
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .main {
+
+    background-color: rgba(0, 0, 255, 0.082);
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading-2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+  
+  .heading-3 {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  
+  .cards {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 20px;
+  }
+  
+  .card {
+    width: 350px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0;
+    box-shadow: 0 4px 7px 0 rgb(0, 0, 0, 0.6);
+  }
+  
+  .img1 {
+    background-image: url("img/GTA.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    border-radius: 5px;
+  }
+  .img2 {
+    background-image: url("img/spider.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    border-radius: 5px;
+  }
+  .img3 {
+    background-image: url("img/cod.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    border-radius: 5px;
+  }
+  .img4 {
+    background-image: url("img/recon.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    border-radius: 5px;
+  }
+  .img5 {
+    background-image: url("img/hitman.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    border-radius: 5px;
+  }
+  .img6 {
+    background-image: url("img/assasin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    border-radius: 5px;
+  }
+  .img7 {
+    background-image: url("img/GameofWar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    border-radius: 5px;
+  }
+  .img8 {
+    background-image: url("img/mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    border-radius: 5px;
+  }
+  
+  
+  .footer {
+    color: rgba(255, 255, 255, 0.986);
+    background-color: black;
+  
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px;
+  
+    position: relative;
+  }
+  
+  .overlay img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    height: 100%;
+    width: 30%;
+  }
+  
+  .overlay1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    height: 150%;
+    width: 100%;
+  }
+  .footer__nav * {
+    margin-bottom: 10px;
+  }
+  
+  .input__email {
+    padding: 5px 10px;
+    font-style: italic;
+    font-size: smaller;
+  }
